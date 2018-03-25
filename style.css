@@ -1,0 +1,210 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
+p{
+    font-size:14pt;
+}
+h2{
+    border-bottom:1px solid #A74552;
+}
+.wrapper{
+    width: 1024px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0px;
+  
+}
+/*=======================*/
+/*NAVIGACIJA*/
+/*=======================*/
+#navigation{
+    height: 60px;
+    background: #f3f3f3;
+    padding: 0;
+    margin: 0;
+}
+#logo{
+    float:left;
+    padding: 5px;
+}
+#logo img{
+    width:120px;
+}
+#nav{
+    float:right;
+    margin: 0;
+    padding: 0;
+}
+#nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#nav ul li{
+    float:left;
+    margin: 0;
+    padding: 21px 0px;
+}
+#nav ul li a{
+    text-decoration: none;
+    margin: 0;
+    padding: 20px 20px;
+    color:black;
+    transition: all 0.3s ease;
+    font-size: 13pt;
+}
+#nav ul li a:link,
+#nav ul li a:visited{
+   color:#000;
+}
+#nav ul li a:hover{ 
+    color: #B01417;
+}
+/*=======================*/
+/*COVER SLIKA*/
+/*=======================*/
+
+#banner{
+    height: 250px;
+    text-align: center;
+    color: #fff;
+    padding: 100px 0 0 0;
+    background: url('images/banner.jpg') center center no-repeat;
+    background-size: cover;
+}
+#banner h1{
+    font-size: 38pt;
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid #fff;
+}
+#banner img{
+    width: 100px;
+    
+}
+/*=======================*/
+/*PRVI SADRZAJ SA LIMENKOM*/
+/*=======================*/
+#content{
+    margin: 0;
+    padding: 100px 0;
+    overflow: hidden;
+}
+#content a{
+    text-decoration: none;
+    color:#B01417;
+}
+#content a:hover{
+    color:#fff;
+}
+.main{
+    float:left;
+    width:auto;
+    
+}
+.sidebar{
+    float:right;
+    width:500px;
+    text-align: right;
+}
+.main img{
+    height:400px;
+    float:left;
+    margin-right: 30px;
+}
+.sidebar h2{
+    border-bottom:1px solid #A74552;
+}
+/*=======================*/
+/*DUGME SA BELOM POZADINOM koje je ima svojstvo float:left tamo gde pise About /*/
+/*=======================*/
+.btn{
+    padding: 10px;
+    border-bottom: 1px solid #B01417;
+    width:100px;
+    text-align: center;
+    float:right;
+    transition: all 0.3s ease;
+}
+.btn:hover{
+    background: #B01417;
+}
+/*=======================*/
+/*DUGME SA BELOM POZADINOM koje je nema svojstvo float:left/ tamo gde pise More... /*/
+/*=======================*/
+.btnWhite{
+    padding: 10px;
+    background: #f3f3f3;
+    color:#B01417;
+    width:100px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+.btnWhite:hover{
+    background: #B01417;
+    color:#fff;
+}
+/*=======================*/
+/*DIV SA ADRESOM KOMPANIJE i sa casom*/
+/*=======================*/
+
+#address{
+    padding: 20px 0;
+    background: #B01417;
+    color: #f3f3f3;
+}
+#address a{
+    text-decoration: none;
+}
+#bottle{
+    height:400px;
+   position: relative;
+    padding: 100px 0;
+    color:#B01417;
+}
+#bottle .bottleleft{
+    width:700px;
+}
+
+#bottle img{
+    height:500px;
+    position: absolute;
+    right:100px;
+    bottom:170px;
+    transform: rotate(15deg);
+}
+#bottle ul li{
+   font-size: 13pt;
+    padding: 6px;
+}
+#bottle a{
+    text-decoration: none;
+    color:#B01417;
+}
+#bottle a:hover{
+    color:#fff;
+}
+#bottle .btn{
+    float:left;
+    margin: 55px 0 0 0;
+}
+
+/*=======================*/
+/*FOOTER*/
+/*=======================*/
+
+#footer{
+    
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    color:#fff;
+    background: #B01417;
+}
+#footer img{
+    height:50px;
+    margin: 0;
+    padding: 0;
+}
